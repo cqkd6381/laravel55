@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/faker', 'FakerController@faker');
+Route::get('/test1', 'DemoController@test1');
+Route::get('/test2', 'DemoController@test2');
